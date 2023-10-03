@@ -133,4 +133,12 @@ select Fname, Lname, Address from employee, departament
 -- definindo alias para legibilidade da consulta
 select e.Fname, e.Lname, e.Address from employee e, departament d
 	where d.Dname = 'Research' and d.Dnumber = e.Dno;
+    
+    
+SELECT * FROM departament;
+SELECT * FROM dependent;
+SELECT * FROM dept_locations;
+SELECT * FROM employee;
+SELECT * FROM project;
+SELECT * FROM works_on;
 
